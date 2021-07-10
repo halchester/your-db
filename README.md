@@ -1,6 +1,6 @@
-# ESDB (easy database)
+# your-db
 
-ESDB is an in memory database which supports basic CRUD operations.
+Your-db is an in memory database which supports basic CRUD operations.
 
 ### Installation and Usage
 
