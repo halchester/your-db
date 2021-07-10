@@ -17,7 +17,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "main": "src/index.ts",
+  "main": "index.ts",
   "types": "src/types.ts",
   "devDependencies": {
     "tsc": "^2.0.3",

@@ -1,5 +1,5 @@
-import { generateDB } from "./factory";
-import { data } from "./sampledata";
+import { generateDB } from "./src/factory";
+import { data } from "./src/sampledata";
 
 export default generateDB;
 
