@@ -1,35 +1,13 @@
-import { DB } from "./db";
+import { generateDB } from "./factory";
+import { data } from "./sampledata";
 
-const data = [
-  {
-    id: 1,
-    data: {
-      name: "Chester",
-      age: 18,
-    },
-  },
-  {
-    id: 2,
-    data: {
-      name: "Another person",
-      age: 21,
-    },
-  },
-];
+export default generateDB;
 
-const myDB = new DB(data);
+// Use case
+interface dataSchema {
+  name: string;
+  email: string;
+  age: number;
+}
 
-// Getting all data
-myDB.getAll();
-
-// Getting data by id
-myDB.getById(1);
-
-// Removing data
-myDB.remove(1);
-
-// Edit data
-myDB.update(2, { name: "Another Another person", age: 21 });
-
-// Adding data
-myDB.add({ id: 3, data: { name: "Another next person", age: 12 } });
+const myDB = generateDB<dataSchema>(data);
