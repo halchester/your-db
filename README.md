@@ -4,6 +4,14 @@ Your-db is an in memory database which supports basic CRUD operations.
 
 ### Installation and Usage
 
+You can install your-db via npm 
+
+```
+npm install your-db
+
+yarn add your-db
+```
+
 You can initialize your db with 
 
 ```
