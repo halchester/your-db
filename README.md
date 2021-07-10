@@ -7,13 +7,15 @@ Your-db is an in memory database which supports basic CRUD operations.
 You can initialize your db with 
 
 ```
-import generateDB from '@halchester/esdb'
+import generateDB from 'your-db'
 
 interface dataSchema {
   name: string;
   email: string;
   age: number;
 }
+
+// TypeScript can also infer your dataSchema type! :D
 
 const myDB = generateDB<dataSchema>(data);
 ```
