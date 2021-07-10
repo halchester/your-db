@@ -1,10 +1,10 @@
-# your-db
+<img src = "assets/logo.png" height = "150"/>
 
 Your-db is an in memory database which supports basic CRUD operations.
 
 ### Installation and Usage
 
-You can install your-db via npm 
+You can install your-db via npm
 
 ```
 npm install your-db
@@ -12,7 +12,7 @@ npm install your-db
 yarn add your-db
 ```
 
-You can initialize your db with 
+You can initialize your db with
 
 ```
 import generateDB from 'your-db'
@@ -28,7 +28,7 @@ interface dataSchema {
 const myDB = generateDB<dataSchema>(data);
 ```
 
-There are 5 main methods you can use with your database. 
+There are 5 main methods you can use with your database.
 
 ```
 // Get all your data in your db
@@ -37,7 +37,7 @@ myDB.getAll()
 // Get a particular item with id
 myDB.getById(id)
 
-// Remove an entry with id 
+// Remove an entry with id
 myDB.remove(id)
 
 // Update an entry with id and new data for that
