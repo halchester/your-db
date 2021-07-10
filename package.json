@@ -1,7 +1,7 @@
 {
   "name": "your-db",
   "description": "In memory database to play around with!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "in-memory",
