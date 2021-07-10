@@ -1,5 +1,5 @@
 {
-  "name": "@halchester/esdb",
+  "name": "easy-db",
   "description": "In memory database to play around with!",
   "version": "1.0.3",
   "license": "MIT",
@@ -10,15 +10,19 @@
     "db",
     "in-memory database"
   ],
+  "files": [
+    "lib/**/*"
+  ],
   "author": {
     "name": "Chester Lynn",
     "email": "chester.htooaunglinn@gmail.com"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-  "main": "index.ts",
-  "types": "src/types.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "devDependencies": {
     "tsc": "^2.0.3",
     "typescript": "^4.3.5"
