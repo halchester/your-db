@@ -1,5 +1,6 @@
 {
   "name": "@halchester/esdb",
+  "description": "In memory database to play around with!",
   "version": "1.0.1",
   "license": "MIT",
   "keywords": [
@@ -9,8 +10,17 @@
     "db",
     "in-memory database"
   ],
+  "author": {
+    "name": "Chester Lynn",
+    "email": "chester.htooaunglinn@gmail.com"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "src/index.ts",
+  "types": "src/types.ts",
   "devDependencies": {
-    "ts-node": "^10.1.0",
+    "tsc": "^2.0.3",
     "typescript": "^4.3.5"
   }
 }
