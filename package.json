@@ -17,6 +17,10 @@
     "name": "Chester Lynn",
     "email": "chester.htooaunglinn@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halchester/your-db.git"
+  },
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
